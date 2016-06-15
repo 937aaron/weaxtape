@@ -1,3 +1,7 @@
+body {
+  font-family: 'Gloria Hallelujah', sans-serif;;
+}
+
 .jumbotron {
   background-image: linear-gradient(to bottom,#458B74 0,#66CDAA 100%);    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2b669a', GradientType=0);*/
   text-align: center;
@@ -23,11 +27,16 @@
 }
 
 .trackName{
-  font-size: 1.45em;
+  font-size: 1.75em;
   font-weight: 700;
 }
 .input-group {
-  padding-bottom: 1em;
+  padding-bottom: 1.35em;
+}
+.tape {
+  position: absolute;
+  margin-left: 120px;
+  opacity: .1;
 }
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
