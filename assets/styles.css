@@ -26,6 +26,9 @@
   font-size: 1.45em;
   font-weight: 700;
 }
+.input-group {
+  padding-bottom: 1em;
+}
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
     text-shadow: 0 -1px 0 #666;
